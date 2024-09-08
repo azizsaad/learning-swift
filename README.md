@@ -9,7 +9,7 @@
 | Array    | `[]`    |
 | Dictionary    | `["key": "value", "key2": "value2"]`    |
 | Set    | `["unique1", "unique2]`    |
-| Tuple    | `[item1InPosition0: Int ,item2InPosition1: String] -> items in tuples are fixed positions with fixed types` |
+| Tuple (items in tuples are fixed positions with fixed types)    | `[item1InPosition0: Int ,item2InPosition1: String]` |
 | Void    | `a data type that is no data type` |
 
 ## Key commands
