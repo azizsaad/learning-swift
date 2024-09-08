@@ -16,6 +16,7 @@
 | Set    | `["unique1", "unique2]`    |
 | Tuple (items in tuples are fixed positions with fixed types)    | `[item1InPosition0: Int ,item2InPosition1: String]` |
 | Void    | `a data type that is no data type` |
+| Function    | `() -> <return-data-type>` |
 
 ## Operators
 
@@ -25,6 +26,7 @@
 - closed range: `a..b` -> e.g. `for index in 1..5`: this is a for loop over every item number between 1 and 5
 - half-open range: `a..<b` -> e.g. `for i in 0..<count`: loops over the range, excluding the final item
   - useful for array where you start at 0 and you loop over the length of the list, so this operator stops you from trying to access the [n+1] item in the array and going over the length of the array
+- one-sided range: [2..] -> start loop at index 2
 
 ## Key commands
 
