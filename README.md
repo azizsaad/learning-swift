@@ -28,6 +28,36 @@
   - useful for array where you start at 0 and you loop over the length of the list, so this operator stops you from trying to access the [n+1] item in the array and going over the length of the array
 - one-sided range: [2..] -> start loop at index 2
 
+## Closures
+
+- `let addClosure: (Int, Int) -> Int = { $0 + $1 }`: This is a function that simply takes in 2 numbers and returns the sum of both.
+  - The closure signature is `{ $0 + $1 }`
+  - *In Swift, a single-expression closure implies the return value is the result of the expression, hence why we don't need an explicit ~return~*
+  - `$0` and `$1` are shorthand for the 1st and 2nd input parameters of the function
+  - It's a function assigned to a variable. We can then pass this as a parameter into another function!
+
+
+
+```swift
+var numbers = [20, 19, 7, 12]
+
+numbers.map({ (number: Int) -> Int in
+    let result = 3 * number
+    print(result)
+    return result
+})
+```
+
+- In the code above, the closure signature is this:
+
+```swift
+{ (number: Int) -> Int in
+    let result = 3 * number
+    print(result)
+    return result
+}
+```
+
 ## Key commands
 
 - `swift build`: compiles the Swift package and its deps. The outputted binary is in the `.build` dir

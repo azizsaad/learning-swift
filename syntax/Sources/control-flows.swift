@@ -48,3 +48,7 @@ numbers.map({(number: Int) -> Int in
     print (result)
     return result
 })
+
+let addClosure: (Int, Int) -> Int = { $0 + $1 }
+
+print(addClosure(4,5))
