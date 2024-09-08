@@ -16,3 +16,8 @@ let width = 94
 let widthLabel = label + String(width)
 
 print(widthLabel)
+
+let apples = 7
+let appleText = "I have \(apples) in my bag."
+
+print(appleText)
