@@ -6,6 +6,9 @@
 | Int | 10     |
 | Float (32 bit)  | 10.3    |
 | Double (64 bit)    | 10.3348    |
+| array    | []    |
+| dictionary    | ["key": "value", "key2": "value2"]    |
+| set    | ["unique1", "unique2]    |
 
 ## Key commands
 
