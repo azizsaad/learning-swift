@@ -1,8 +1,12 @@
+// ARRAY
+
 var sport = ["footy", "rugby", "cricket"]
 sport[0] = "pop"
 sport.append("rugby")
 
 print(sport)
+
+// DICTIONARIES
 
 var captains: [String: String] = [
     "stokes": "cricket",
