@@ -2,6 +2,9 @@
 
 | Type     | example |
 | -------- | ------- |
+| Any  | `any`    |
+| ?  | `asserts that value might be nil`    |
+| nil  | `value does not exist`    |
 | String  | `"hello"`    |
 | Int | `10`     |
 | Float (32 bit)  | `10.3`    |
