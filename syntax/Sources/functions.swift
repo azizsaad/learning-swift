@@ -24,6 +24,6 @@ func arrayMinAndMax(array: [Int]) -> (min: Int, max: Int)? {
     return (currentMin, currentMax)
 }
 
-var res = arrayMinAndMax(array: [10,40,2,-20,100])
+var res = arrayMinAndMax(array: [10,40,2,-20,200])
 
 print(res)

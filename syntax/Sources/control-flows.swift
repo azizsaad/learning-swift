@@ -19,7 +19,7 @@ print(totalScore)
 
 var optionalString: String? = "Hello" // because of the ?, this can be a string, or nil
 print(optionalString == nil)
-print(optionalString is Int)
+print(optionalString is Int) // type casting
 
 var placeholderName: String? = "John" // if this is nil, then greeting is only Hello
 var greeting = "Hello"
@@ -29,3 +29,9 @@ if let name = placeholderName {
 }
 
 print(greeting)
+
+let nickname: String? = nil
+let fullName: String = "John Appleseed"
+let informalGreeting = "Hi \(nickname ?? fullName)"
+
+print(informalGreeting)
