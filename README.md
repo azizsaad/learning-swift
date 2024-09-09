@@ -11,6 +11,7 @@
 | Int | `10`     |
 | Float (32 bit)  | `10.3`    |
 | Double (64 bit)    | `10.3348`    |
+| Collections (array, set, dictionary)    | `data type that holds multiple generic values in 1 variable`    |
 | Array    | `[]`    |
 | Dictionary    | `["key": "value", "key2": "value2"]`    |
 | Set    | `["unique1", "unique2]`    |
