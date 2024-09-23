@@ -38,7 +38,6 @@
   - It's a function assigned to a variable. We can then pass this as a parameter into another function!
 
 
-
 ```swift
 var numbers = [20, 19, 7, 12]
 
