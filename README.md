@@ -58,6 +58,7 @@ numbers.map({ (number: Int) -> Int in
 }
 ```
 
+
 ## Key commands
 
 - `swift build`: compiles the Swift package and its deps. The outputted binary is in the `.build` dir
