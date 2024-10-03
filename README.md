@@ -79,3 +79,4 @@ numbers.map({ (number: Int) -> Int in
 In a playground environment, all code is the main.swift file. But in an IDE like VSCode, there has to be a single, top-level executable where all statements trace back to.
 
 This error is not present in Xcode because it has in-built support to run top-level code wherever. Xcode is aware of the context of all the files within it's package. It knows if a file is running in isolation or not.
+
